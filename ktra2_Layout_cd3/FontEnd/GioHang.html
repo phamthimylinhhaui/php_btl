@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+	<title>Giỏ hàng</title>
+</head>
+<body>
+	<div class="container">
+		<!-- header -->
+		<div class="header">
+			<div class="row">
+				<div class="logo"><a href="TrangChu.html" style="color:#F15B67">Vascara</a></div>
+				<div class="search">
+					<input type="textbox" placeholder="Nhập sản phẩm tìm kiếm" name="">
+					<a href="ChiTietSP.html"><i class="fa fa-search"></i></a>
+				</div>
+				<div class="login">
+					<i class="fa fa-user"></i>
+					<span><a href="DangNhap.html">Đăng nhập</a></span>
+				</div>
+				<div class="oder">
+					<i class="fa fa-shopping-cart"></i>
+					<span><a href="GioHang.html">Giỏ hàng</a></span>
+				</div>
+			</div>
+		</div>
+		<!-- end header -->
+
+		<!-- menu -->
+		<div class="menu">
+			<ul>
+				<li><a href="SanPham.html">Giày cao gót</a></li>
+				<li><a href="SanPham.html">Giày Sandals</a></li>
+				<li><a href="SanPham.html">Giày Sneaker</a></li>
+				<li><a href="SanPham.html">Giày Boots</a></li>
+				<li><a href="SanPham.html">Giày da thật</a></li>
+				<li><a href="SanPham.html">Giày Lười</a></li>
+				<li id="cha"><a href="">Khác</a>
+					<ul id="con">
+						<li><a href="KhuyenMai.html">Khuyến mại</a></li>
+						<li><a href="">Tin tức</a></li>
+						<li><a href="">Liên hệ</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- end menu -->
+
+		<!-- sidebar -->
+		<div class="CT-sidebar">
+			<div class="DMSP">
+				<div class="container1">Giỏ Hàng</div>
+				
+			</div>
+		</div>
+		<!-- end sidebar -->
+
+		<!-- main -->
+		<div class="main">
+			<div class="giohang">
+				<div class="row3">
+					<div class="ghcb">Giỏ hàng của bạn</div>
+					<button id="btn-xoagiohang">Xóa giỏ hàng</button>
+				</div>
+				<table border="1" cellpadding="10px" cellspacing="0">
+					<tr>
+						<th>STT</th>
+						<th>Ảnh</th>
+						<th>Tên sản phẩm</th>
+						<th>Giá</th>
+						<th>Số lượng</th>
+						<th>Xóa</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td><img id="spgh" src="Assets/images/SP_tt.png" id="img-ctsp" alt="hình ảnh sản phẩm ở giỏ hàng"></td>
+						<td>Giày bata</td>
+						<td>299,000 VNĐ</td>
+						<td id="sl"><input type="number" value="1" name=""></td>
+						<td><i class="fa fa-trash-alt"></i></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td><img id="spgh" src="Assets/images/SP_tt.png" id="img-ctsp" alt="hình ảnh sản phẩm ở giỏ hàng"></td>
+						<td>Giày bata</td>
+						<td>299,000 VNĐ</td>
+						<td id="sl"><input type="number" value="1" name=""></td>
+						<td><i class="fa fa-trash-alt"></i></td>
+					</tr>
+				</table>
+				<div class="tongtien">
+					<p id="tt">Tổng tiền: 598,000 VND</p>
+					<button id="btn-tt">Thanh toán</button>
+				</div>
+
+			</div>
+			
+
+			<!-- main-bottom -->
+			<div class="main-bottom">
+				<div class="col1">
+					<div class="row">
+						<div class="icon"><i class="fas fa-truck"></i></div>
+						<div class="chinhsach">
+							<h4>Miễn phí vận chuyển</h4>
+							<p>Ưu đãi giao hàng tận nhà miễn phí</p>
+						</div>
+					</div>
+				</div>
+				<div class="col1">
+					<div class="row">
+						<div class="icon"><i class="fas fa-headset"></i></div>
+						<div class="chinhsach">
+							<h4>Hỗ trợ trực tuyến</h4>
+							<p>Hỗ trợ trực tuyến 24/7</p>
+						</div>
+					</div>
+				</div>
+				<div class="col1">
+					<div class="row">
+						<div class="icon"><i class="fa fa-medal"></i></div>
+						<div class="chinhsach">
+							<h4>Bảo đảm chất lượng</h4>
+							<p>Sản phẩm bảo đảm chất lượng</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end main-bottom -->
+		</div>
+		<!-- end main -->
+
+		<!-- footer -->
+		<div class="footer">
+			<div class="row">
+				<div class="col2">
+					<div class="logo1">Vascara</div>
+					<h5>Vascara | Thương hiệu thời trang balo túi xách, giày dép, bóp ví nữ đẹp</h5>
+				</div>
+				<div class="col2">
+					<h3>Danh mục sản phẩm</h3>
+						<li><a href="SanPham.html" id="a">GIÀY CAO GÓT</a></li>
+						<li><a href="SanPham.html" id="a">GIÀY SANDALS</a></li>
+						<li><a href="SanPham.html" id="a">GIÀY SNEAKER</a></li>
+						<li><a href="SanPham.html" id="a">GIÀY BOOTS</a></li>
+						<li><a href="SanPham.html" id="a">GIÀY DA THẬT</a></li>
+						<li><a href="SanPham.html" id="a">GIÀY LƯỜI</a></li>
+				</div>
+				<div class="col2">
+					<h3>Liên hệ</h3>
+					<p><i class="fa fa-map-marker-alt"></i> Số 298 Đ. Cầu Diễn, Minh Khai, Bắc Từ Liêm, Hà Nội</p>
+					<p><i class="fa fa-globe-asia"></i> vascara.com.vn</p>
+					<p><i class="fa fa-phone-square"></i> 038.464.0190</p>
+				</div>
+			</div>
+			<div class="madeby">&copy; 2021 Vascara made by Phạm Thị Mỹ Linh</div>
+		</div>
+		<!-- end footer -->
+	</div>
+</body>
+</html>
